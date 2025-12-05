@@ -2,9 +2,21 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: 
 nav: true
 nav_order: 4
+---
+
+##### **About This Repository Space**
+
+This page currently displays a limited selection of our public repositories.  
+
+As our work on open-source transport modelling, AI applications, and research tooling grows, this space will be expanded to include new projects, experiments, and collaborations.  
+
+The aim is to gradually build a transparent, research-driven collection of tools and examples that support both academic and consulting partners.  
+
+Please check back occasionally for updates as new repositories are added.
+
 ---
 
 {% if site.data.repositories.github_users %}

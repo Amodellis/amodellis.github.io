@@ -23,3 +23,25 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Light mode logo visible only in light mode */
+html[data-theme="light"] #corporate-logo-light { display: block; }
+html[data-theme="light"] #corporate-logo-dark { display: none; }
+
+/* Dark mode logo visible only in dark mode */
+html[data-theme="dark"] #corporate-logo-light { display: none; }
+html[data-theme="dark"] #corporate-logo-dark { display: block; }
+
+/* Navbar logo: light mode */
+html[data-theme="light"] #navbar-logo-light { display: inline-block; }
+html[data-theme="light"] #navbar-logo-dark { display: none; }
+
+/* Navbar logo: dark mode */
+html[data-theme="dark"] #navbar-logo-light { display: none; }
+html[data-theme="dark"] #navbar-logo-dark { display: inline-block; }
+
+/* Custom override: reduce project title font size */
+.projects .card-title {
+  font-size: 1.3rem !important;  /* adjust size as needed */
+  line-height: 1.3;
+}

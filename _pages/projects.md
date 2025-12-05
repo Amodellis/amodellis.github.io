@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: services
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A developing portfolio of services as our consultancy grows.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [consulting, fun]
 horizontal: false
 ---
 

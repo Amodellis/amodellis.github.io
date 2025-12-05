@@ -11,7 +11,29 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+
+    {% assign logo_light = site.logo.path | append: "/" | append: site.logo.light %}
+    {% assign logo_dark  = site.logo.path | append: "/" | append: site.logo.dark %}
+    {% assign logo_width = site.logo.width | default: 250 %}
+
+    <div id="corporate-logo-wrapper" style="text-align: {{ site.logo.position }};">
+      <div id="corporate-logo-light">
+        <img src="{{ logo_light | relative_url }}"
+            alt="Logo Light"
+            style="max-width: {{ logo_width }}px; height: auto;">
+      </div>
+
+      <div id="corporate-logo-dark">
+        <img src="{{ logo_dark | relative_url }}"
+            alt="Logo Dark"
+            style="max-width: {{ logo_width }}px; height: auto;">
+      </div>
+    </div>
+
+    <!-- Configurable vertical spacing after the logo -->
+    <div style="height: {{ site.logo.spacer | default: 20 }}px;"></div>
+
+    <p class="desc" style="font-weight: 600;">{{ page.subtitle }}</p>
   </header>
 
   <article>

@@ -1,21 +1,34 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+  >
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% assign logo_light = site.logo.path | append: "/" | append: site.logo.light %}
+          {% assign logo_dark  = site.logo.path | append: "/" | append: site.logo.dark %}
+          {% assign logo_width = site.logo.nav_width | default: 90 %}
+          {% assign logo_offset = site.logo.nav_offset | default: 0 %}
+
           {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
+            <span id="navbar-logo-light">
+              <img
+                src="{{ logo_light | relative_url }}"
+                alt="Logo Light"
+                style="max-width: {{ logo_width }}px; height: auto; margin-top: {{ logo_offset }}px;"
+              >
+            </span>
+
+            <span id="navbar-logo-dark">
+              <img
+                src="{{ logo_dark | relative_url }}"
+                alt="Logo Dark"
+                style="max-width: {{ logo_width }}px; height: auto; margin-top: {{ logo_offset }}px;"
+              >
+            </span>
           {% else %}
             {{- site.title -}}
           {% endif %}
@@ -24,6 +37,7 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -43,7 +57,9 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
@@ -117,6 +133,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -125,8 +142,9 @@
               </button>
             </li>
           {% endif %}
+
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
@@ -139,6 +157,7 @@
       </div>
     </div>
   </nav>
+
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
