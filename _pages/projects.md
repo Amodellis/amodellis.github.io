@@ -5,7 +5,7 @@ permalink: /projects/
 description: A developing portfolio of services as our consultancy grows.
 nav: true
 nav_order: 3
-display_categories: [consulting, fun]
+display_categories: [consulting, research]
 horizontal: false
 ---
 
