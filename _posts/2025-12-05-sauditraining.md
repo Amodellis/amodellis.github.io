@@ -105,4 +105,4 @@ It was a hugely positive week — and with luck, future training sessions will w
 
 ---
 
-If you’re interested in executive training, analytics capability-building, or tailored workshops on transport modelling and data, feel free to [**get in touch**](mailto:jeff@amodellis.com). Amodellis is always keen to collaborate and share knowledge with teams around the world.
+If you’re interested in executive training, analytics capability-building, or tailored workshops on transport modelling and data, feel free to <a href="mailto:jeff@amodellis.com"><b>get in touch</b></a>. Amodellis is always keen to collaborate and share knowledge with teams around the world.

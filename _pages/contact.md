@@ -13,7 +13,7 @@ Thank you for your interest. If you would like to discuss potential collaboratio
 
 ### Email  
 For all enquiries:  
-[jeff@amodellis.com](mailto:jeff@amodellis.com)
+<a href="mailto:jeff@amodellis.com"><b>jeff@modellis.com</b></a>
 
 ---
 
