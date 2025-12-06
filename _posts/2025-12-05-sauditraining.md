@@ -77,7 +77,7 @@ The standout moment came courtesy of [**Nathan Watts**](https://www.linkedin.com
 
 Surprise Surpise! Participants asked more questions in his half-hour session than in the rest of the four days combined...
 
-The message landed clearly: [**AI in transport**](({{ "/projects/service_research/" | relative_url }})) is no longer optional — it is here, useful and inevitable. And hopefully Amodellis can contribute in our own small way in the future too.
+The message landed clearly: [**AI in transport**]({{ "/projects/service_research/" | relative_url }}) is no longer optional — it is here, useful and inevitable. And hopefully Amodellis can contribute in our own small way in the future too.
 
 ---
 
@@ -105,4 +105,4 @@ It was a hugely positive week — and with luck, future training sessions will w
 
 ---
 
-If you’re interested in executive training, analytics capability-building, or tailored workshops on transport modelling and data, feel free to **get in touch**. Amodellis is always keen to collaborate and share knowledge with teams around the world.
+If you’re interested in executive training, analytics capability-building, or tailored workshops on transport modelling and data, feel free to [**get in touch**](mailto:jeff@amodellis.com). Amodellis is always keen to collaborate and share knowledge with teams around the world.

@@ -6,7 +6,7 @@ tags: vision innovation AI transport-futures research
 
 giscus_comments: true
 date: 2025-12-04
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true
