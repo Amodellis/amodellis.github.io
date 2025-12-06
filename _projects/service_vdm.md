@@ -52,13 +52,13 @@ Assessment of impacts from:
 
 ##### **Relevant Experience**
 
-###### **HS2 Ltd – PLANET Framework Model Update Audit**
+###### **PLANET Framework Model Update Audit - HS2 Ltd**
 Provided independent peer review for the PFM update, focusing on discrete choice and variable demand modelling. Supporting HS2 Ltd by advising on model robustness, methodological rationale, and alignment with best practice.
 
-###### **Transport for the North – NorMITs Elasticity Model**
+###### **NorMITs Elasticity Model - Transport for the North**
 Enhanced the Northern Model Integration Tool with an elasticity-based adjustment model, underpinned by extensive benchmarking of demand elasticities.
 
-###### **Greater Bristol Area – VDM Development**
+###### **VDM Development - Greater Bristol Area**
 Developed a multi-modal, TAG-compliant VDM with segmentation, demand responses and pivoting structures integrated into both public transport and highway assignment models.
 
 ---

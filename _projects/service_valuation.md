@@ -52,7 +52,7 @@ DCMs can be integrated into:
 ###### **Tolling & Road Pricing – Multiple International Projects**
 Designed and estimated discrete choice models for toll choice, willingness-to-pay and diversion behaviour across the UK, US, Canada, Greece, Georgia, Mexico and Southeast Asia. Applications included pricing strategy, demand-risk assessment and investment-grade revenue forecasting.
 
-###### **LUTI Modelling – Bid-Rent Location Choice Model**
+###### **Bid-Rent Location Choice Model in LUTI framework**
 Co-developed the UK's first microeconomic bid-rent location choice model within a LUTI framework, building a bespoke discrete choice-based framework for household and firm location decisions, including the estimation of bid functions and rent-auction parameters.
 
 ###### **UK National Value of Travel Time Study**

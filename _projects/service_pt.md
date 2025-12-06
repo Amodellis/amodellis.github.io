@@ -55,10 +55,10 @@ Independent review of public transport models, including:
 ###### **PT Model Development - Multiple Authorities**
 Led and contributed to the development of large-scale, TAG-compliant public transport models for the West of England (WERTM) and South West & Mid Wales (SWMWTM). Responsibilities included Visum bus network development, GTFS timetable integration, calibration/validation, and multi-modal forecasting to support strategic transport appraisal.
 
-###### **Transport for the North – Bus Timetable Integration**
+###### **Bus Timetable Integration - Transport for the North**
 Developed a prototype analytical system using BODS GTFS feeds to generate accessibility metrics for authority partners across the North of England.
 
-###### **Railplan Modelling – Multiple London Developments**
+###### **Railplan Modelling - Multiple London Developments**
 Led Railplan-based public transport modelling for major development schemes including the Enfield Local Plan, Dagenham Green and Canada Water Dockside. Delivered base model audits, Local Model Updates and future-year forecasts to assess patronage impacts, mitigation measures and planning compliance.
 
 

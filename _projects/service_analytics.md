@@ -52,7 +52,7 @@ Development of tailored tools for:
 
 #### **Relevant Experience**
 
-###### **Transport for the North – Bus Timetable Integration**
+###### **Bus Timetable Integration - Transport for the North**
 Developed a prototype analytical system using BODS GTFS feeds to generate accessibility metrics for authority partners across the North of England.
 
 ###### **Tolling & Road Pricing – Multiple International Projects**
