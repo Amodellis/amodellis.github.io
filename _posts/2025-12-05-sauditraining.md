@@ -93,15 +93,24 @@ It was a hugely positive week — and with luck, future training sessions will w
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2025-12-05_Pic1.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <a href="{{ 'assets/img/2025-12-05_Pic1.jpeg' | relative_url }}" target="_blank">
+            <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/2025-12-05_Pic1.jpeg' | relative_url }}" alt="Saudi Training Slide">
+        </a>
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2025-12-05_Pic2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <a href="{{ 'assets/img/2025-12-05_Pic2.jpeg' | relative_url }}" target="_blank">
+            <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/2025-12-05_Pic2.jpeg' | relative_url }}" alt="Classroom Discussion">
+        </a>
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2025-12-05_Pic3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <a href="{{ 'assets/img/2025-12-05_Pic3.jpeg' | relative_url }}" target="_blank">
+            <img class="img-fluid rounded z-depth-1" src="{{ 'assets/img/2025-12-05_Pic3.jpeg' | relative_url }}" alt="Group Photo">
+        </a>
     </div>
 </div>
+
 
 ---
 
